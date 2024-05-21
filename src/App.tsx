@@ -31,6 +31,7 @@ function App() {
 
   return (
     <>
+      test
       {!boardsList && <CreateBoard/>}
       {boardsList && !currentBoard &&
         <Box maxHeight={'80vh'} overflow={"auto"}>
